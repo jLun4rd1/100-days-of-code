@@ -23,4 +23,3 @@ Down below you'll find more things about me:
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=jLun4rd1&repo=100-days-of-code&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/jLun4rd1/100-days-of-code)
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=jLun4rd1&repo=java-bootcamp&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/jLun4rd1/java-bootcamp)
-
