@@ -1,5 +1,5 @@
 
-# jLun4rdi - 100 Days of Code
+# jLun4rdi - 100 Days of Code - Python :snake:
 
 Hello! My real name is João Lunardi, hence jLun4rdi. I'm starting my carreer in Data Analysis and I'm looking forward to growing a lot 😁
 
