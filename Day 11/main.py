@@ -111,7 +111,7 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == 'y'
     has_printed = False
         
     if win_lose == False:     
-        while sum(computer_score) <= 16:            
+        while sum(computer_score) <= 16 or sum(computer_score) < sum(player_score):            
             computer_score, card_n_dict = computer_plays(computer_score, computer_cards_list, card_n_dict)
             if 11 in computer_score and sum(computer_score) > 21:
                 computer_score.remove(11)
