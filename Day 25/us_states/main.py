@@ -19,14 +19,12 @@ while correct_states < total_states:
     answer_state = string.capwords(screen.textinput(title=f"{correct_states}/{total_states} States guessed", prompt="What's another state's name?"))
 
     if answer_state == 'Exit':
-        states_to_learn = {
-            "State": []
-        }
-        
-        for state in data['state']:
-            if state not in correct_states_list:
-                states_to_learn['State'].append(state)
-                
+        states_to_learn = [state for state in data['state'] if state not in correct_states_list]
+        # states_to_learn = []
+        # for state in data['state']:
+        #     if state not in correct_states_list:
+        #         states_to_learn['State'].append(state)
+              
         df = pd.DataFrame(states_to_learn).to_csv("states_to_learn.csv"
                                                   )        
         break
