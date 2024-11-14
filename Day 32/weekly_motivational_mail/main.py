@@ -21,7 +21,7 @@ def send_mail(message):
 
 now = dt.datetime.now()
 day_of_week = now.weekday()
-if day_of_week == weekdays['Tuesday']:
+if day_of_week == weekdays['Thursday']:
     with open('../data/quotes.txt') as data_file:
         contents = data_file.readlines()
         quotes_list = [x.strip() for x in contents]
