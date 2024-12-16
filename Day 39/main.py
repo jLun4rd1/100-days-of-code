@@ -38,7 +38,7 @@ for dict in data_manager.destination_data:
     print(lowest_price, duration, departure_date, departure_time, n_of_stops)
 
     lowest_flight_data = FlightData(price=lowest_price, duration=duration, departure_date=departure_date, departure_time=departure_time, n_of_stops=n_of_stops)
-    if float(dict['lowestPrice']) < lowest_price:
+    if float(lowest_price) < float(dict['lowestPrice']) or dict['lowestPrice'] == '':
         print('New lowest price found! Sending mail...')
         dict['lowestPrice'] = lowest_price
         

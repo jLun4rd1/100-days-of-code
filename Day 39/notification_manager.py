@@ -22,7 +22,7 @@ class NotificationManager:
         msg['To'] = MY_EMAIL
         msg['Subject'] = subject
         msg.attach(MIMEText(body, "plain", 'utf-8'))
-        print(msg)
+        # print(msg)
         
         try:
             server = smtplib.SMTP(SMTP_SERVER, 587)
